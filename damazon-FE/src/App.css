@@ -1,0 +1,25 @@
+.app {
+    text-align: center;
+    padding: 20px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #f0f5ff;
+    margin: 0;
+    padding: 0;
+}
