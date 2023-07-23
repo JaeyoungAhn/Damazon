@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: # jdbc:mysql://localhost:port/database_name?useSSL=false
+    username: #usenrname
+    password: #password
+  jpa:
+    hibernate:
+      ddl-auto: #create or update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+server:
+  port: 8080
