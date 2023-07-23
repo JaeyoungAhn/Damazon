@@ -1,0 +1,32 @@
+.orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.order {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+}
+
+.order-header {
+    color: #007bff;
+}
+
+.order-status {
+    color: #28a745;
+}
+
+.order-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+  
